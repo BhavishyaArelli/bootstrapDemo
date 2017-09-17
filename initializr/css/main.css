@@ -1,0 +1,68 @@
+#nav{
+	  
+	  list-style-type: none;
+	  margin: 0;
+	  padding: 0;
+	  
+	  overflow:hidden;
+  }
+  .nav1{
+	  
+      float: right;
+	  
+	  padding: 10px;
+  }
+  .row {
+    background-image: url('tv.jpg');
+}
+   .img-circle{
+	   border-radius: 50%;
+   }
+  .faceb{
+    width: 80px;
+	height: 40px
+  }
+  .facebo{
+	  width: 100px;
+	  height:70px;
+  }
+  .single{
+	  display: block;
+	  padding: 8px;
+	  background-color: #dddddd;
+  }
+  #contactback {
+	  background-image: url('contactback.jpg');
+	  text-align: center;
+  }
+	   
+ #choiceback {
+	 background-image: url('carbg.jpeg');
+	 text-align: center;
+ }
+ #video {
+	 height: 300px;
+	 width: 500px;
+	 
+ }
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

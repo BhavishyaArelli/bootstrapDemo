@@ -1,0 +1,44 @@
+*{
+	padding: 1;
+	margin: 1;
+}
+body{
+	
+	background:#ffefdb;
+}
+#back{
+	color: #458b74;
+	font-style:italic;
+	text-align:center;
+}
+.main{
+	font-style:oblique;
+	color: #458b74;
+}
+.style{
+	color: #a52a2a;
+    text-align:center;
+	text-decoration:underline;
+}
+#align{
+	font-style:bold;
+	color:#7fff00;
+}
+.decoration{
+	color:#2f4f4f;
+	text-align: center;
+	font-style: bold;
+	text-decoration: underline;
+}
+table{
+	border:1px solid black;
+}
+th{
+	border:1px solid black;
+	text-decoration: underline;
+	font-style:bold;
+}
+td{
+	border: 1px solid black;
+	font-style:italic;
+}

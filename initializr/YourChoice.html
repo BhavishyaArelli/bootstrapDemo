@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<link rel="apple-touch-icon" href="apple-touch-icon.png">
+<link rel="stylesheet" href="css/bootstrap.min.css">
+<link rel="stylesheet" href="css/bootstrap-theme.min.css">
+ <link rel="stylesheet" href="css/main.css">
+<title> Your Choice </title>
+</head>
+<body id="choiceback">
+<ul id="nav">
+      <li class="nav1"><a class="single" href="Contact.html"><h4>Contact</h4></a></li>
+      <li class="nav1"><a class="single" href="YourChoice.html"><h4>YourChoice</h4></a></li>
+      <li class="nav1"><a class="single" href="Arelli_Bhavishya.html"><h4>About</h4></a></li>
+		</ul>
+
+<!--<form action="">-->
+   
+    <h2>Select your choice</h2><br>
+<p>
+Email_ID:
+<input type="text" name="email"><br>
+</p>
+<h3> Order here </h3>
+<p>
+<input type="radio" name="vehicle" value="lg">LG
+<input type="radio" name="vehicle" value="samsung">Samsung
+<input type="radio" name="vehicle" value="sony">Sony
+<input type="radio" name="vehicle" value="panasonic">Panasonic
+</p>
+<br>
+<h4>Choose the model</h4>
+<p>
+<input type="radio" id="r1" name="tv" value="35000" onclick="getRadioVal()">LCD
+<input type="radio" id="r2" name="tv" value="50000" onclick="getRadioVal()">LED
+<input type="radio" id="r3" name="tv" value="95000" onclick="getRadioVal()">Home Theater
+</p>
+<br>
+<p>
+Number of pieces:
+<select id="mySelect" name="television" onchange="myFunction()">
+<option value="none">None</option>
+<option value="1">1</option>
+<option value="2">2</option>
+<option value="3">3</option>
+<option value="4">4</option>
+<option value="5">5</option>
+</select>
+</p>
+<br>
+<p>
+Enter your shipping address:<input type="text" name="address"></p><br>
+
+<p>
+<input onclick="Calculate()" type="Submit" value="Submit" >
+</p>
+<p>
+Total:
+<input id="answer" type="text" name="total"/><br>
+</p>
+
+<!--</form>-->
+ <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.min.js"><\/script>')</script>
+<script src="form.js"></script>
+</body>
+</html>
